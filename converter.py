@@ -30,7 +30,7 @@ class ConvertText:
                     time.sleep(0.15)
                 elif char == " ":
                     time.sleep(0.45)
-            time.sleep(1.05)
+            time.sleep(1)
 
     def set_morse(self):
         self.morse = input("Enter the morse code to be converted to text: ")
